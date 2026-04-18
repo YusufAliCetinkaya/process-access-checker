@@ -50,7 +50,7 @@ fn get_pid_by_name(target_name: &str) -> Option<u32> {
 }
 
 fn main() {
-    let target = "notepad.exe";
+    let target = "test.exe";
 
     println!("[*] Process search started: {}", target);
 
